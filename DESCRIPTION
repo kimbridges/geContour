@@ -1,0 +1,26 @@
+Package: geContour
+Title: Create Contour Plots to Apply as Google Earth Overlays
+Version: 0.1.0
+Authors@R: 
+    person("Kim", "Bridges", email = "kim.bridges@google.com", role = c("aut", "cre"))
+Description: Tools to create contour plots from sparse spatial data and export them as 
+    Google Earth overlays. This package provides functions to generate contour 
+    visualizations from latitude, longitude, and value data, with options for 
+    interpolation and styling. The outputs include transparent PNG images with 
+    corresponding KML/KMZ files for easy viewing in Google Earth.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    ggplot2,
+    viridis,
+    akima,
+    zip,
+    fields
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
