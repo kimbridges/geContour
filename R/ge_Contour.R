@@ -85,8 +85,6 @@ create_contour_plot <- function(data,
           lat   = rep(interp_result$y, times = interp_grid_res),
           value = as.vector(interp_result$z)
         )
-        cat("after akima\n")
-        cat("Rows: ",nrow(plot_data),"\n")
 
         # Remove any NAs (locations that couldn't be interpolated)
         plot_data <- na.omit(plot_data)
