@@ -1,6 +1,6 @@
 # geContour
 
-An R package to create contour plots and apply them as Google Earth overlays.
+An R package to create contour plots and apply them as Google Earth overlays. Several countour algorithms are available.
 
 ## Overview
 
